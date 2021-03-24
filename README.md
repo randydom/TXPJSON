@@ -2,5 +2,5 @@
  Easy JSON object for Delphi
 
 
-var
+var<br>
   k1: TXPJson;

@@ -18,7 +18,7 @@ begin
   k7 := k6;
   k7['flag'] := 'end';
   k8.Text := k6.Text;
-  k8['flag'] := 'continue';
+  k8['members'] := JsonArrayOf(['continue', 111.999]);
   k9.Text := Memo2.Text;
   Memo1.Lines.Add(Format('k0: %s', [k0.Text]));
   Memo1.Lines.Add(Format('k1: %s', [k1.Text]));
@@ -41,5 +41,5 @@ end;
 * k5: [ 1, 2, 3, 4, 5.5, "abc", true, false, null ]
 * k6: [ 1, 2, 3, 4, 5.5, "abc", true, "A", null, "B" ]
 * k7: { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5.5, "5": "abc", "6": true, "7": "A", "8": null, "9": "B", "flag": "end" }
-* k8: { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5.5, "5": "abc", "6": true, "7": "A", "8": null, "9": "B", "flag": "continue" }
+* k8: { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5.5, "5": "abc", "6": true, "7": "A", "8": null, "9": "B", "members": [ "continue", 111.999 ] }
 * k9: { ... }

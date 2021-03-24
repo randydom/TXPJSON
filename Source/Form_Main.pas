@@ -41,7 +41,7 @@ begin
   k7 := k6;
   k7['flag'] := 'end';
   k8.Text := k6.Text;
-  k8['flag'] := 'continue';
+  k8['members'] := JsonArrayOf(['continue', 111.999]);
   k9.Text := Memo2.Text;
   Memo1.Lines.Add(Format('k0: %s', [k0.Text]));
   Memo1.Lines.Add(Format('k1: %s', [k1.Text]));

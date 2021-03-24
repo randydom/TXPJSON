@@ -43,3 +43,11 @@ end;
 * k7: { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5.5, "5": "abc", "6": true, "7": "A", "8": null, "9": "B", "flag": "end" }
 * k8: { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5.5, "5": "abc", "6": true, "7": "A", "8": null, "9": "B", "members": [ "continue", 111.999 ] }
 * k9: { ... }
+
+```Delphi
+# Method for ambiguous operation
+asInteger
+asFloat
+asBoolean
+asString
+```

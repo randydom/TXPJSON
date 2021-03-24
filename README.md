@@ -1,5 +1,7 @@
 # TXPJSON
- Easy JSON object for Delphi
+## Easy JSON object for Delphi
+* Simple declare and assign any value to JSON variable
+* Convert to text and from text (Text and TextPretty property)
 
 ```Delphi
 var

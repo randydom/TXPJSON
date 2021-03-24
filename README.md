@@ -1,7 +1,8 @@
 # TXPJSON
  Easy JSON object for Delphi
 
-```var
+```Delphi
+var
   k0, k1, k2, k3, k4, k5, k6, k7, k8, k9: TXPJson;
 begin
   k1 := 56;
@@ -27,4 +28,5 @@ begin
   Memo1.Lines.Add(Format('k7: %s', [k7.Text]));
   Memo1.Lines.Add(Format('k8: %s', [k8.Text]));
   Memo1.Lines.Add(Format('k9: %s', [k9.TextPretty]));
-end;```
+end;
+```

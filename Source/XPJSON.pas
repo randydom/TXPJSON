@@ -98,7 +98,7 @@ type
     property AsArray: TXPJsonArray read GetAsArray;
 
     property Text: string read GetText write SetText;
-    property TextPretty: string read GetTextPretty;
+    property TextPretty: string read GetTextPretty write SetText;
     property ValueType: TXPJsonType read FType write SetType;
     property Values[AKey: Integer]: TXPJson read GetValueOfInt write SetValueOfInt; default;
     property Values[AKey: Boolean]: TXPJson read GetValueOfBool write SetValueOfBool; default;
